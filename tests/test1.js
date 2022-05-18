@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 /*
  * src      : test1.js
- * job      : tests for the generic object
- * git      : https://github.com/pffy/obj-ts
+ * job      : tests for IdxHanyuPinyin
+ * git      : https://github.com/pffy/hpdx-ts
  * author   : The Pffy Authors https://pffy.dev
  * license  : https://opensource.org/licenses/MIT
  */
-const { SomeObject } = require('../.');
+const { IdxHanyuPinyin } = require('../.');
 
-console.log('hello-world?, %s, %s',
-  SomeObject.derp.key,
-  SomeObject.derp.value);
+console.log('three?: %s', IdxHanyuPinyin.hpdx['三']);
+console.log('done.');
